@@ -1,7 +1,6 @@
 package com.cloudbae.community.controller;
 
 import com.cloudbae.community.dto.PaginationDTO;
-import com.cloudbae.community.dto.QuestionDTO;
 import com.cloudbae.community.mapper.UserMapper;
 import com.cloudbae.community.model.User;
 import com.cloudbae.community.service.QuestionService;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 
 @Controller
