@@ -1,10 +1,9 @@
-package com.cloudbae.community.dto;
+package com.my.community.model;
 
-import com.cloudbae.community.model.User;
 import lombok.Data;
 
 @Data
-public class QuestionDTO {
+public class Question {
     private Integer id;
     private String title;
     private String description;
@@ -15,5 +14,4 @@ public class QuestionDTO {
     private Integer viewCount;
     private Integer commentCount;
     private Integer likeCount;
-    private User user;
 }

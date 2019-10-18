@@ -1,4 +1,4 @@
-package com.cloudbae.community;
+package com.my.community;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,8 +1,8 @@
-package com.cloudbae.community.provider;
+package com.my.community.provider;
 
 import com.alibaba.fastjson.JSON;
-import com.cloudbae.community.dto.AccessTokenDTO;
-import com.cloudbae.community.dto.GithubUser;
+import com.my.community.dto.AccessTokenDTO;
+import com.my.community.dto.GithubUser;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
 

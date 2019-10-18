@@ -1,11 +1,10 @@
-package com.cloudbae.community.mapper;
+package com.my.community.mapper;
 
-import com.cloudbae.community.model.User;
+import com.my.community.model.User;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
-import org.springframework.beans.factory.annotation.Autowired;
 
 
 @Mapper

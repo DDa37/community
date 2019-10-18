@@ -1,7 +1,7 @@
-package com.cloudbae.community.controller;
+package com.my.community.controller;
 
-import com.cloudbae.community.dto.PaginationDTO;
-import com.cloudbae.community.service.QuestionService;
+import com.my.community.dto.PaginationDTO;
+import com.my.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

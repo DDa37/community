@@ -1,6 +1,6 @@
-package com.cloudbae.community.mapper;
+package com.my.community.mapper;
 
-import com.cloudbae.community.model.Question;
+import com.my.community.model.Question;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

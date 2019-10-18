@@ -1,10 +1,10 @@
-package com.cloudbae.community.controller;
+package com.my.community.controller;
 
-import com.cloudbae.community.dto.AccessTokenDTO;
-import com.cloudbae.community.dto.GithubUser;
-import com.cloudbae.community.mapper.UserMapper;
-import com.cloudbae.community.model.User;
-import com.cloudbae.community.provider.GithubProvider;
+import com.my.community.dto.AccessTokenDTO;
+import com.my.community.dto.GithubUser;
+import com.my.community.mapper.UserMapper;
+import com.my.community.model.User;
+import com.my.community.provider.GithubProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

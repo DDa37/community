@@ -1,4 +1,4 @@
-package com.cloudbae.community.model;
+package com.my.community.model;
 
 import lombok.Data;
 

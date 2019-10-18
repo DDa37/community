@@ -1,11 +1,11 @@
-package com.cloudbae.community.service;
+package com.my.community.service;
 
-import com.cloudbae.community.dto.PaginationDTO;
-import com.cloudbae.community.dto.QuestionDTO;
-import com.cloudbae.community.mapper.QuestionMapper;
-import com.cloudbae.community.mapper.UserMapper;
-import com.cloudbae.community.model.Question;
-import com.cloudbae.community.model.User;
+import com.my.community.dto.PaginationDTO;
+import com.my.community.dto.QuestionDTO;
+import com.my.community.mapper.QuestionMapper;
+import com.my.community.mapper.UserMapper;
+import com.my.community.model.Question;
+import com.my.community.model.User;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

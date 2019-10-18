@@ -1,4 +1,4 @@
-package com.cloudbae.community.dto;
+package com.my.community.dto;
 
 import lombok.Data;
 

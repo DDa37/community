@@ -1,8 +1,8 @@
-package com.cloudbae.community.controller;
+package com.my.community.controller;
 
-import com.cloudbae.community.mapper.QuestionMapper;
-import com.cloudbae.community.model.Question;
-import com.cloudbae.community.model.User;
+import com.my.community.mapper.QuestionMapper;
+import com.my.community.model.Question;
+import com.my.community.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

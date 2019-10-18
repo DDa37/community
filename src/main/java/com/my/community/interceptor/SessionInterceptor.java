@@ -1,7 +1,7 @@
-package com.cloudbae.community.interceptor;
+package com.my.community.interceptor;
 
-import com.cloudbae.community.mapper.UserMapper;
-import com.cloudbae.community.model.User;
+import com.my.community.mapper.UserMapper;
+import com.my.community.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.HandlerInterceptor;
