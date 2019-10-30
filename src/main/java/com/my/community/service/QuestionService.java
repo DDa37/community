@@ -4,6 +4,7 @@ import com.my.community.dto.PaginationDTO;
 import com.my.community.dto.QuestionDTO;
 import com.my.community.exception.CustomizeErrorCode;
 import com.my.community.exception.CustomizeException;
+import com.my.community.mapper.QuestionExtMapper;
 import com.my.community.mapper.QuestionMapper;
 import com.my.community.mapper.UserMapper;
 import com.my.community.model.Question;
@@ -22,6 +23,9 @@ public class QuestionService {
 
     @Autowired
     private QuestionMapper questionMapper;
+
+    @Autowired
+    private QuestionExtMapper questionExtMapper;
 
     @Autowired
     private UserMapper userMapper;
@@ -142,5 +146,12 @@ public class QuestionService {
                 throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
             }
         }
+    }
+
+    public void inView(Integer id) {
+        Question question = new Question();
+        question.setId(id);
+        question.setViewCount(1);
+        questionExtMapper.incView(question);
     }
 }
